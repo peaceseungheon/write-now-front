@@ -6,6 +6,10 @@ const router = createRouter({
     {
       path: '/',
       component: () => import('@/views/feed/feed-main.vue')
+    },
+    {
+      path: '/register',
+      component: () => import('@/views/users/register.vue')
     }
   ]
 })
